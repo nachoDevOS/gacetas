@@ -195,6 +195,22 @@ class MenuItemsTableSeeder extends Seeder
                 'route' => NULL,
                 'parameters' => '',
             ),
+            11 => 
+            array (
+                'id' => 12,
+                'menu_id' => 1,
+                'title' => 'Limpiar cache',
+                'url' => '',
+                'target' => '_self',
+                'icon_class' => 'voyager-refresh',
+                'color' => '#000000',
+                'parent_id' => 5,
+                'order' => 7,
+                'created_at' => '2021-06-25 18:03:59',
+                'updated_at' => '2021-06-25 18:04:03',
+                'route' => 'clear.cache',
+                'parameters' => NULL,
+            ),
         ));
         
         
