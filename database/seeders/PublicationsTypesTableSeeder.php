@@ -23,6 +23,7 @@ class PublicationsTypesTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'title' => 'Leyes',
+                'slug' => 'leyes',
                 'icon' => 'journal-bookmark',
                 'image' => NULL,
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
@@ -34,6 +35,7 @@ class PublicationsTypesTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'title' => 'Decretos',
+                'slug' => 'decretos',
                 'icon' => 'book',
                 'image' => NULL,
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
@@ -45,6 +47,7 @@ class PublicationsTypesTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'title' => 'Resolución',
+                'slug' => 'resolucion',
                 'icon' => 'newspaper',
                 'image' => NULL,
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
@@ -56,6 +59,7 @@ class PublicationsTypesTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'title' => 'Designación',
+                'slug' => 'designacion',
                 'icon' => 'chat-left-text-fill',
                 'image' => NULL,
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
