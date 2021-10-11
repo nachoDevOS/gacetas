@@ -5,31 +5,31 @@
       <div class="section-title">
         <h2>Contacto</h2>
         <h3><span>Contáctanos</span></h3>
-        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        <p>Puedes ponerte en contácto con nosotros mediante cualquiera de los canales de comunicación descritos a continuación.</p>
       </div>
 
       <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-6">
           <div class="info-box mb-4">
             <i class="bx bx-map"></i>
-            <h3>Our Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <h3>Nuestra dirección</h3>
+            <p>{{ setting('site.address') }}</p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
           <div class="info-box  mb-4">
             <i class="bx bx-envelope"></i>
-            <h3>Email Us</h3>
-            <p>contact@example.com</p>
+            <h3>Nuestro Email</h3>
+            <p>{{ setting('site.email') }}</p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
           <div class="info-box  mb-4">
             <i class="bx bx-phone-call"></i>
-            <h3>Call Us</h3>
-            <p>+1 5589 55488 55</p>
+            <h3>Teléfono/Celular</h3>
+            <p>{{ setting('site.phone') }}</p>
           </div>
         </div>
 

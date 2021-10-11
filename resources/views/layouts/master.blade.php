@@ -53,14 +53,14 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:{{ setting('site.email') }}">{{ setting('site.email') }}</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>{{ setting('site.phone') }}</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="{{ setting('social.twitter') }}" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="{{ setting('social.facebook') }}" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="{{ setting('social.instagram') }}" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="{{ setting('social.youtube') }}" class="youtube"><i class="bi bi-youtube"></i></i></a>
       </div>
     </div>
   </section>
@@ -84,10 +84,10 @@
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a href="{{ url('') }}" class="nav-link scrollto active">Inicio</a></li>
-        <li><a href="#" class="nav-link scrollto">SISCOR</a></li>
-        <li><a href="#" class="nav-link scrollto ">Personería</a></li>
-        <li><a href="#" class="nav-link scrollto">Agenda</a></li>
+        <li><a href="{{ url('') }}" class="nav-link scrollto active">Gaceta</a></li>
+        <li><a href="https://siscor.ml" class="nav-link">SISCOR</a></li>
+        <li><a href="#" class="nav-link">Turismo</a></li>
+        <li><a href="#" class="nav-link">Agenda</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -128,45 +128,40 @@
               @endif
             </a>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              {{ setting('site.address') }} <br>
+              Santísima Trinidad - Beni - Bolivia <br><br>
+              <strong>Telefono/Celular:</strong> {{ setting('site.phone') }}<br>
+              <strong>Email:</strong> {{ setting('site.email') }}<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>GADBENI</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://beni.gob.bo">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://siscor.ml">SISCOR</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Turismo</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Agenda</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Enlaces</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Proyectos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Buzón de sugerencias</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Trabaja con nosotros</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <h4>Nuestras redes sociales</h4>
+            <p>Echa un vistazo a nuestras redes sociales</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="{{ setting('social.twitter') }}" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="{{ setting('social.facebook') }}" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="{{ setting('social.instagram') }}" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="{{ setting('social.youtube') }}" class="youtube"><i class="bx bxl-youtube"></i></a>
             </div>
           </div>
 
