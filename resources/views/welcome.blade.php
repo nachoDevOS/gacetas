@@ -52,25 +52,23 @@
             <img src="{{ asset('images/site-about.jpg') }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>GACETA JURIDICA DEPARTAMENTAL</h3>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              Es el instrumento informativo que tiene por objeto publicar de manera permanente las Leyes Departamentales, Decretos Departamentales y de Gobernación, Resoluciones de Gobernación y Administrativas y sobre todo cualquier otro documento de carácter general que emita el Gobierno Autónomo Deoartamental del Beni.
             </p>
             <ul>
               <li>
                 <i class="bx bx-store-alt"></i>
                 <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  <h5>MISIÓN</h5>
+                  <p>Custodiar y salvaguardar cronológica y oportunamente en la Gaceta Oficial las Leyes Decretos y Resoluciones que emita el Ejecutivo Departamental del Beni.</p>
                 </div>
               </li>
               <li>
                 <i class="bx bx-images"></i>
                 <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  <h5>VISIÓN</h5>
+                  <p>Constituirse en el órgano oficial de publicación y difusión de toda la normativa emitida por el Ejecutivo  Departamental.</p>
                 </div>
               </li>
             </ul>

@@ -18,6 +18,7 @@ class CreatePublicationsTable extends Migration
             $table->foreignId('publications_type_id')->nullable()->constrained('publications_types');
             $table->foreignId('user_id')->nullable()->constrained('users');
             $table->string('title')->nullable();
+            $table->string('tags')->nullable();
             $table->text('description')->nullable();
             $table->date('publish_date')->nullable();
             $table->date('enact_date')->nullable();

@@ -122,10 +122,10 @@ class DataTypesTableSeeder extends Seeder
                 'controller' => NULL,
                 'description' => NULL,
                 'generate_permissions' => 1,
-                'server_side' => 1,
+                'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2021-10-06 12:40:05',
-                'updated_at' => '2021-10-11 14:54:50',
+                'updated_at' => '2021-10-11 21:01:49',
             ),
             6 => 
             array (

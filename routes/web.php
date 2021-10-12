@@ -28,7 +28,8 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-Route::get('/{slug}', [HomeController::class, 'list_by_types']);
+Route::get('/{slug}', [HomeController::class, 'types_index']);
+Route::get('/{type_id}/search/{value?}', [HomeController::class, 'types_list']);
 
 // Clear cache
 Route::get('/admin/clear-cache', function() {
